@@ -203,19 +203,22 @@ figure {
   z-index: 2;
   color: #fff;
 }
+@media screen and (max-width: 767px) {
+    .call-btn{
+      position: fixed;
+      z-index: 9999;
+      inset: auto 0 0 0;
+      opacity: 1 !important;
+      margin: 15px;
+  }
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc {
     top: 20%;
     padding-left: 15px;
     padding-right: 15px;
   }
-  .call-btn{
-      position: fixed;
-      z-index: 9999;
-      inset: auto 0 0 0;
-      opacity: 1;
-      margin: 15px;
-  }
+
 }
 .fh5co-cover .desc h2 {
   color: #fff;
